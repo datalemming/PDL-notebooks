@@ -12,10 +12,10 @@ If people want to recreate the entire demo themselves they need to do the follow
 5. Run the "PyData Querying examples notebook".
 6. If you want to explore PySpark and Riak :
   
-  a. Install Apache Spark 1.6 or above (God help you!)
+  a. Install Apache Spark 1.6 or above and get it working (God help you!)
   
-  b. Download the Riak Spark Connector (see the website above to find the download link and it is very easy to do) and remember you must start jupyter as follows:
+  b. Download the Riak Spark Connector (see the website above to find the download link, this is very easy to do) and remember you must start jupyter as follows:
 
-"SPARK_CLASSPATH=/path/to/where/ypu/put/the/connector jar jupyter notebook" - you will want to install the python findspark module.
+"SPARK_CLASSPATH=/path/to/where/you/put/the/connector.jar jupyter notebook" - you will want to install the python findspark module for the PySpark notebook.
 
 If anyone wants the dataset to run the notebooks, please contact me at setheridge@basho.com. The csv file is 120MB zipped, so be warned we will have to be artistic about transfering it.
